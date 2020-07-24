@@ -1,7 +1,6 @@
 body {
-  background-color: black;
+  background-color: white;
   color: white;
-  opacity: 0.8;
   text-align: center;
 }
 
@@ -14,7 +13,7 @@ body {
 }
 
 .input-bar {
-  padding: 2rem;
+  padding: 3rem;
   background-color: #aa3939;
   border-radius: 0.5rem;
   margin-left: 5rem;
@@ -50,11 +49,36 @@ body {
 }
 
 .input-list {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
-.input-list-buttons {
-  margin-left: 1rem;
+.input-list div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  border-bottom: 0.5px dotted black;
+}
+
+.new-div-description {
+  margin-left: 0.5rem;
+}
+
+.fr-buttons {
+  font-size: 1.3rem;
+  text-align: center;
+  border: none;
+  margin: 0.5rem;
+}
+
+.finish-button {
+  background-color: lightblue;
+  padding: 1rem;
+}
+
+.remove-button {
+  background-color: #f94444;
+  padding: 1rem;
 }
 
 @media (max-width: 700px) {
