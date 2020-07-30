@@ -4,7 +4,7 @@ A Todo-App built is Javascript, Css, and Html.
 
 Live Link = https://the-todo-app.netlify.app/
 
-<img src="images/img1.png" width="300" height="400" />
+<img src="images/img1.png" width="400" height="500" />
 
 <h3>Summary</h3>
   
