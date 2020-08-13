@@ -35,8 +35,8 @@ class TodoActions {
     todoText.textContent = todo.description;
     todoText.classList.add("new-div-description");
 
-    const finishBtn = TodoActions.createButton("finishBtn", "✓");
-    const deleteBtn = TodoActions.createButton("deleteBtn", "X");
+    const finishBtn = TodoActions.createButton("finish-btn", "✓");
+    const deleteBtn = TodoActions.createButton("delete-btn", "X");
 
     finishBtn.addEventListener("click", (e) =>
       TodoActions.finishTodos(e.target)

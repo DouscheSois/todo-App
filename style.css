@@ -71,12 +71,12 @@ body {
   margin: 0.5rem;
 }
 
-.finish-button {
+.finish-btn {
   background-color: lightblue;
   padding: 1rem;
 }
 
-.remove-button {
+.delete-btn {
   background-color: #f94444;
   padding: 1rem;
 }
