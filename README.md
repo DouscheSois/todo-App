@@ -12,4 +12,4 @@ I created this App because it's a classic App to create. I learned and solified 
 
 <h3>Author</h3>
 
-Roger Alexander - Full Stack Developer
+Roger Alexander - Full Stack Developer <a href="http://www.douschesois.com">Portfolio Website</a>
