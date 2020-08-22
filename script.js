@@ -10,12 +10,6 @@ const randomID = () => {
 };
 
 class TodoActions {
-  static displayTodos() {
-    const todos = [];
-
-    todos.forEach((description) => TodoActions.addTodosToList(description));
-  }
-
   static createButton(buttonName, symbol) {
     const btn = document.createElement("button");
     btn.id = buttonName;
@@ -56,16 +50,6 @@ class TodoActions {
     const list = document.getElementById("input-list");
     const newDiv = TodoActions.createTodo(todo);
     list.appendChild(newDiv);
-
-    // newDiv.innerHTML = `
-    // <h3 class="new-div-description" id="new-div-description">${
-    //   todo.description
-    // }</h3>${" "}
-    // <div class="fr-buttons">
-    //   <button class="finish-button" id="finish-button" type="button" name="button">✓</button>
-    //   <button class="remove-button" type="button" name="button">X</button>
-    // </div>
-    // `;
   }
 
   static deleteTodos(element) {
@@ -83,8 +67,6 @@ class TodoActions {
     document.getElementById("description").value = "";
   }
 }
-
-document.addEventListener("DOMContentLoaded", TodoActions.displayTodos);
 
 document.getElementById("submit-button").addEventListener("click", (e) => {
   const key = randomID();
